@@ -1,0 +1,13 @@
+---
+title: minapa
+format:
+  minapa-html: default
+author: gwbrck
+date: last-modified
+bibliography: "/Users/gwbrck/Documents/Bib/main.json"
+lang: de
+---
+
+## minimal apa extension for quarto and csl
+
+For a more featurefull version use wjschne/apaquarto.
