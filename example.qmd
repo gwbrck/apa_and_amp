@@ -5,19 +5,19 @@ filters:
 bibliography: examplereferences.bib
 lang: "en" # works with de, fr and es
 format: 
-    # pdf:
-    #   link-citations: true
+    pdf:
+        link-citations: true
     html:
         citations-hover: true
         embed-resources: true
-    typst: default
-csl: apa
-citeproc: false
+    # typst: default
+csl: https://www.zotero.org/styles/apa # For offline use or with Typst, you might want to keep CSL file in project root.
+citeproc: false # Needs to be set for the filter to work. Citreproc is run by the filter.
 ---
 
-## Überschrift
+## Filter Demo
 
-This filter adds formatting to heading text.
+This filter replaces "&" with "and" for narrative APA citation.
 
 @mock_single_author_2024  
 
