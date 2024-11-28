@@ -1,0 +1,33 @@
+---
+title: "Example document with Quarto filter extension for correct APA narrative citation"
+filters:
+ - apa_and_amp
+bibliography: examplereferences.bib
+lang: "en" # works with de, fr and es
+format: 
+    # pdf:
+    #   link-citations: true
+    html:
+        citations-hover: true
+        embed-resources: true
+    typst: default
+csl: apa
+citeproc: false
+---
+
+## Überschrift
+
+This filter adds formatting to heading text.
+
+@mock_single_author_2024  
+
+@mock_two_authors_2023
+
+@mock_three_authors_2022
+
+
+[@mock_single_author_2024]
+
+[@mock_two_authors_2023]
+
+[@mock_three_authors_2022]

@@ -1,0 +1,8 @@
+title: Quarto filter extension for correct APA narrative citation
+author: Gregor Willenbrock
+version: 1.0.0
+quarto-required: ">=1.6.0"
+contributes:
+  filters:
+    - citeproc.lua
+    - apa_and.lua
