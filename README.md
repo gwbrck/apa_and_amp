@@ -1,17 +1,11 @@
-README.md
-
 # Quarto APA Narrative Citation Filter
 
 This is a minimal Quarto filter extension designed to correct narrative APA citations by replacing the ampersand (`&`) with the word "and" in in-text narrative citations. Unlike the broader [apaquarto](https://github.com/wjschne/apaquarto) extension, this filter has a focused scope: handling narrative citations for APA-style compliance. It does not include additional formatting features or broader APA-related enhancements.
-
----
 
 ## Features
 
 - **Correct APA Narrative Citations**: Ensures that citations follow APA style by replacing `&` with `and` in narrative citations, while leaving parenthetical citations untouched.
 - **Multilingual Support**: Works with English (`en`), German (`de`), French (`fr`), and Spanish (`es`) as default languages.
-
----
 
 ## Example Usage
 
