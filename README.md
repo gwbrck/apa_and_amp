@@ -49,3 +49,8 @@ If you're using version control, you will want to check in this directory.
     - Quarto (v1.4+)
     - A valid bibliography file (e.g., examplereferences.bib).
     - APA CSL file: Ensure the correct APA citation style is specified using csl. Use a local file or a URL like Zotero's APA Style.
+
+
+## License
+
+This Quarto Lua filter is published under the MIT license, see file LICENSE for details.
