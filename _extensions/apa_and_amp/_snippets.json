@@ -1,0 +1,21 @@
+{
+  "apa_and_amp filter setup": {
+    "prefix": "apa-and-amp-config",
+    "body": [
+      "filters:",
+      "  - apa_and_amp",
+      "bibliography: ${1:references.bib}",
+      "lang: ${2|en,de,fr,es|}",
+      "csl: ${3:https://www.zotero.org/styles/apa}",
+      "citeproc: false"
+    ],
+    "description": "Configure apa_and_amp for narrative citation replacement."
+  },
+  "Narrative citation example": {
+    "prefix": "apa-and-amp-cite",
+    "body": [
+      "@${1:author_year}"
+    ],
+    "description": "Insert a narrative citation for testing apa_and_amp output."
+  }
+}
