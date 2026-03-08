@@ -33,7 +33,7 @@ citeproc: false # Needs to be set for the filter to work. Citeproc is run by the
 ```
 
 > [!CAUTION]
-> Disable Default Citeproc: To allow the filter to process citations, set citeproc: false in your document metadata.
+> Disable Default Citeproc: To allow the filter to process citations, set `citeproc: false` in your document metadata.
 
 ## Installing
 
@@ -46,7 +46,7 @@ If you're using version control, you will want to check in this directory.
 
 ### Dependencies
 
-    - Quarto (v1.4+)
+    - Quarto (v1.6+)
     - A valid bibliography file (e.g., examplereferences.bib).
     - APA CSL file: Ensure the correct APA citation style is specified using csl. Use a local file or a URL like Zotero's APA Style.
 

@@ -12,7 +12,7 @@ format:
         embed-resources: true
     # typst: default
 csl: https://www.zotero.org/styles/apa # For offline use or with Typst, you might want to keep CSL file in project root.
-citeproc: false # Needs to be set for the filter to work. Citreproc is run by the filter.
+citeproc: false # Needs to be set for the filter to work. Citeproc is run by the filter.
 ---
 
 ## Filter Demo
